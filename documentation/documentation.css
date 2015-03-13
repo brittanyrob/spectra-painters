@@ -1,0 +1,448 @@
+/* ==============================================
+Resets
+============================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==============================================
+	General Styles
+============================================== */
+
+body {
+	padding-top: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #333333;
+	background-color: #ffffff;
+}
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	margin-bottom: 0px;
+	color: #333333;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 26px;
+	line-height: 36px;
+}
+
+h3 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 5px;
+	font-weight: 300;
+}
+
+h4 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 0px;
+	font-weight: 300;
+}
+
+h5 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 300;
+}
+
+a:hover, a > *:hover {
+	text-decoration: none;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	color: #55ACEE;
+	font-weight: bold;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: #0f0f0f;
+	box-shadow: 1px 1px #333333;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+p span, ul li span {
+	color: #00b3ff;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol li span {
+	color: #00b3ff;
+}
+
+code {
+	color: #00b3ff;
+	padding: 2px 5px;
+	background: #333333;
+}
+
+.bd-docs-container {
+	min-height: 600px;
+}
+
+.bd-docs-container ol{
+	margin-left: 22px;
+}
+
+ul.updates-list {
+	list-style: circle;
+	margin-top: 15px;
+}
+
+ul.updates-list ul {
+	list-style: square;
+	margin-left: 20px;
+}
+
+ul.list li {
+	padding-bottom: 10px;
+}
+
+ul.list span {
+	color: #00b3ff;
+}
+
+ul.list li ul {
+	padding-top: 10px;
+}
+
+ul.list li ul li {
+	padding-left: 40px;
+}
+
+.col-md-9 { 
+	float: right;
+}
+
+.navbar-inverse {
+	background: #fff;
+	border: none;
+	border-bottom: 1px solid #E2E2E2 !important;
+	box-shadow: 0 0px 15px rgba(10, 10, 10, 0.06);
+}
+
+.navbar-nav > li > a {
+	line-height: 30px;
+}
+
+.navbar-brand {
+	line-height: 30px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #E7F7F7;
+}
+
+.empty-space {
+	height: 100px;
+	width: 100%;
+}
+
+.footer {
+	background: #efefef;
+	border-top: 1px solid #d1d2d3;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.bd-header {
+	background: #fff url(img/bg.png) no-repeat;
+	background-size: cover;
+	padding: 50px 15px 50px;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15);
+	margin-bottom: 50px;
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+.bd-header img {
+	position: relative;
+	top: 55px;
+}
+
+.bd-header h1 { 
+	font-size: 60px;
+	line-height: 1;
+	color: #FFFFFF;
+}
+
+.bd-header p { 
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.bd-sidebar-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.bd-sidebar {
+	position: relative;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+	.bd-sidebar.animated_nav {
+		position: fixed;
+		top: 80px;
+		width: 213px;
+	}
+}
+@media (min-width: 1200px) {
+	.bd-sidebar.animated_nav {
+		width: 262px;
+	}
+}
+
+/*
+@media (max-width: 992px) {
+
+	.bd-sidebar.animated_nav {
+		width: 153px;
+	}
+	
+}
+*/
+.bd-sidebar .panel { 
+	background: #fff;
+	border: none;
+	border-right: 1px solid #E2E2E2;
+	box-shadow: none;
+	padding-bottom: 5px;
+}
+
+.bd-sidebar .panel-body { 
+	padding: 0px;
+}
+
+.bd-sidebar .panel-heading { 
+	background: #fff;
+	border-bottom: 0px solid #E2E2E2;
+}
+
+.bd-sidebar .nav-pills > li { 
+	margin: 0;
+}
+
+.bd-sidebar .nav-pills > li > a { 
+	border-radius: 0px;
+	background-color: #fff;
+	padding: 5px 20px;
+	color: #333;
+}
+
+.bd-sidebar .nav-pills > li > a:hover { 
+	background-color: #E5E3E9;
+	padding: 5px 20px;
+	border-radius: none;
+	color: #333;
+}
+
+.update-header {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.page-header { 
+	border-bottom: 1px solid #E2E2E2;
+	margin: 0px 0px 20px;
+	padding: 10px 15px;
+	overflow: hidden;;
+}
+
+.page-header h3, .page-header h4 { 
+	float: left;
+}
+
+.page-header .gotop { 
+	float: right;
+	color: #333333;
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 5px;
+}
+
+.col-md-9 {
+	padding-top: 80px;
+	margin-top: -45px;
+}
+
+.col-md-9.first {
+	padding-top: 0px;
+	margin-top: 0;
+}
+
+.col-md-9 .syntaxhighlighter {
+	z-index: 2;
+}
+
+.col-md-9 p {
+	position: relative;
+	z-index: 2;
+}
+
+/* ==================================================================
+	Pricing Tables Section
+================================================================== */
+
+
+
+/* ==================================================================
+	Buttons
+================================================================== */
+
+.button {
+	width: auto;
+	height: auto;
+	background: transparent;
+	color: #55acee;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	border: 1px solid #55acee;
+	letter-spacing: 0.20em;
+	margin-top: 20px;
+	
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+}
+
+.button:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #55acee;
+	border: 1px solid #55acee;
+}
+
+.button.rounded {
+	border-radius: 5px;
+}
+
+.home-slider .button {
+	margin-bottom: 60px;
+}
+
+.button.border-white {
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.button.border-white:hover {
+	color: #fff;
+	text-decoration: none;
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+.button.border-blur-white {
+	color: #fff;
+	border: 1px solid #fff;
+	background: rgba(255,255,255,0.3);
+}
+
+.button.border-blur-white:hover {
+	color: #fff;
+	border: 1px solid #fff;
+	background: rgba(255,255,255,0.3);
+}
+
+.home-slider .button.border-blur-white {
+	background: rgba(255,255,255,0.2);
+}
+
+.home-slider .button.border-blur-white:hover {
+	background: rgba(255,255,255,0.3);
+}
+
+.highlight {
+	color: #55acee;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
