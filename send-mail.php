@@ -14,7 +14,7 @@ $frm_message = stripcslashes($_POST['message']);
 Variables you can change
 ============================================== */
 
-$mailto = 'info@spectrapainters.ca'; // Enter your mail addres here. 
+$mailto = 'brittanyrob@live.ca'; // Enter your mail addres here. 
 $subject = $frm_subject; // Enter the subject here.
 
 $error_message = 'Error sending your message'; // Message displayed if an error occurs
