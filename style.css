@@ -162,6 +162,7 @@ h2 {
 	font-family: 'Dosis', sans-serif;
 	font-size: 48px;
 	position: relative;
+	color: #fff;
 }
 
 h3 {
@@ -209,7 +210,7 @@ p.lead {
 }
 
 a, a > * {
-	color: #2a6496;
+	color: #fff;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -219,7 +220,7 @@ a, a > * {
 }
 
 a:hover, a > *:hover, a:focus {
-	text-decoration: none;
+	text-decoration: #747474;
 	outline: 0;
 }
 
@@ -2353,5 +2354,5 @@ body.mobile .parallax-background {
 }
 
 .image-5 {
-	background-image: url(images/as.jpg);
+	background-image: url(images/contact.jpg);
 }
