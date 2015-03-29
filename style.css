@@ -2345,6 +2345,19 @@ body.mobile .parallax-background {
 	display: block;
 	border-top: 1px solid transparent;
 	margin-bottom: 20px;
+	}
+	
+	.copyright {
+		font-size: 12px;
+	}
+	
+	.section-content {
+	position: relative;
+	}
+	
+	h2 {
+	font-size: 25px;
+	}
 	
 }
 
