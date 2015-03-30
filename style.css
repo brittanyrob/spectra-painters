@@ -2359,6 +2359,42 @@ body.mobile .parallax-background {
 	font-size: 25px;
 	}
 	
+	.socials-icons {
+	position: relative;
+	margin: 0;
+	float: left;
+}
+
+.socials-icons ul  {
+	margin: auto;
+	display: table;
+}
+	
+.socials-icons li {
+	margin: 0 12px;
+	display: block;
+	float: left;
+}
+
+.socials-icons li a {
+	display: block;
+	background: transparent;
+	position: relative;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.socials-icons li a:hover {
+	opacity: 0.7;
+}
+
+.socials-icons li a i {
+	color: #333;
+	line-height: 60px;
+	font-size: 31px;
+}
+	
 }
 
 
