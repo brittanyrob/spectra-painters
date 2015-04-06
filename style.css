@@ -1427,7 +1427,6 @@ textarea::-webkit-input-placeholder {
 	color: #333;
 }
 
-
 /* ==================================================================
 	16.0 Overlay Styles
 ================================================================== */
@@ -2235,6 +2234,11 @@ body.mobile .parallax-background {
 	.feature-text {
 		margin: 0 auto;
 	}
+	
+.free {
+	margin-left: 50px;
+	display: block;
+}
 
 }
 
