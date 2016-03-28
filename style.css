@@ -705,7 +705,7 @@ textarea::-webkit-input-placeholder {
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 47% 0;
+	background-position: center;
 	background-color: transparent;
 }
 
