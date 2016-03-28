@@ -703,7 +703,6 @@ textarea::-webkit-input-placeholder {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
-	background-attachment: fixed;
 	background-color: transparent;
 }
 
@@ -2407,7 +2406,7 @@ body.mobile .parallax-background {
 ================================================================== */
 
 .image-1 {
-	background-image: url(images/white.jpg);
+	background-image: url(images/slide-spectra.jpg);
 }
 
 .image-2 {
