@@ -700,6 +700,9 @@ textarea::-webkit-input-placeholder {
 
 .parallax-background {
 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 47% 0;
